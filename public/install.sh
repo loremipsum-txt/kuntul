@@ -78,7 +78,7 @@ if [ -d "$REPO_PATH" ]; then
 else
   (
     cd "$NEXUS_HOME" || exit
-    git clone https://github.com/loremipsum-txt/kuntul/
+    git clone https://github.com/loremipsum-txt/kuntul
   )
 fi
 
